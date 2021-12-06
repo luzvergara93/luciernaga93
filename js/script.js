@@ -27,7 +27,7 @@ $(document).ready(function() {
    });
 
 	var typed = new Typed (".typed", {
-		strings: ["Front End Web Developer", "Sworn Translator and English Teacher.", "Student."],
+		strings: ["Front End Web Developer", "Sworn Translator and English Teacher.", "Full Stack Web Development Student."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
@@ -65,7 +65,7 @@ $(document).ready(function() {
 
         		$('.chart').easyPieChart({
             easing: 'easeInOut',
-            barColor: '#fff',
+            barColor: 'white',
             trackColor: false,
             scaleColor: false, 
             lineWidth: 4,
@@ -75,8 +75,6 @@ $(document).ready(function() {
 
             } 
         });
-
-
 
         }
 
@@ -110,7 +108,7 @@ $(document).ready(function() {
 
      });
 
-     $("#navigation li a").click(function(e) {
+     $("#navigation a").click(function(e) {
      	e.preventDefault();
 
      	var targetElement = $(this).attr("href");
@@ -121,31 +119,26 @@ $(document).ready(function() {
 
 
 
+//    const nav = $("#navigation");
+//    const navTop = nav.offset().top;
 
+//    $(window).on("scroll", stickyNavigation);
 
+//    function stickyNavigation() {
 
+//    		var body = $("body");
 
-   const nav = $("#navigation");
-   const navTop = nav.offset().top;
+//    		if($(window).scrollTop() >= navTop) {
+//    			body.css("padding-top", nav.outerHeight() + "px");
+//    			body.addClass("fixedNav");
+//    		}		   
 
-   $(window).on("scroll", stickyNavigation);
+// 		else {
+// 			body.css("padding-top", 0);
+// 			body.removeClass("fixedNav");
+// 		}
 
-   function stickyNavigation() {
-
-   		var body = $("body");
-
-   		if($(window).scrollTop() >= navTop) {
-   			body.css("padding-top", nav.outerHeight() + "px");
-   			body.addClass("fixedNav");
-   		}
-		else {
-			body.css("padding-top", 0);
-			body.removeClass("fixedNav");
-		}
-
-
-
-   } 
+//    } 
 
    });  
 

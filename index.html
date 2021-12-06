@@ -9,12 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
 
 
 	<script src="https://kit.fontawesome.com/2fb63b9c92.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
@@ -42,10 +43,10 @@
 
 	  </div>
 
-	  <nav class="slides-navigation">
+	  <!-- <nav class="slides-navigation">
 	    <a href="#" class="next"></a>
 	    <a href="#" class="prev"></a>
-	  </nav>
+	  </nav> -->
 
 	  <div class="loader"> 
 		<div class="inner"> </div>
@@ -53,7 +54,9 @@
 
 	</div>
 
-		<nav id="navigation" class="navbar navbar-expand-lg">
+	
+
+		<!-- <nav id="navigation" class="navbar navbar-expand-lg">
 			  <a class="navbar-brand" href="#">Luz Vergara</a>
 
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +79,19 @@
 			      </li>
 			    </ul>
 			  </div>
-			</nav>
+			</nav> -->
+
+			<aside id="navigation" class="nonFixedNav">
+				<ul class="listMenu">
+					<a href="#about"><li>About </li> </a>
+					<a href="#skills"><li>Skills </li> </a>
+					<a href="#contact"><li>Contact </li> </a>
+					<a href="#portfolio"><li>Portfolio </li> </a>
+					<a href="#education"><li>Education </li> </a>
+					
+				</ul>
+			</aside>
+			
 
 			<div id="about" class="section">
 
@@ -85,16 +100,20 @@
 					<div class="row">
 
 					<div class="col-md-5">
-						<img class="aboutImage" src="img/aboutImage.JPG">
+						<img class="aboutImage" src="img/aboutImg.jpg">
 
 							</div> 
-					<div class="col-md-7">
+					<div class="col-md-7" id="paragraph">
 
 						<h4> My name is Luz Vergara </h4>
-						<p> I am from Buenos Aires, Argentina. I am a Sworn Translator, English Teacher and Front End Developer. 
+						<p> I am from Buenos Aires, Argentina. 
+							<br>I am starting my career as Front End Web Developer. 
 						</p>
-						<p> I am a hard-working woman. Due to my experience in Customer Service, I am a very patient person who knows how to deal with difficult situations. I always pay specific attention to details and have an approachable, cheerful and friendly attitude. I like to expand my knowledge whenever I can.
-							<br> I am currently studying to be a Full Stack Web Developer.
+						<p> I am a Sworn Translator and English Teacher, but I have decided to enter the world of technology, which I have always loved.
+							<br>I also have experience in Customer Service. 
+							<br> About myself, I am a hard-working woman. I am a very patient person who knows how to deal with difficult situations; 
+							I always pay specific attention to details and have an approachable, cheerful and friendly attitude. 
+							<br>I like to expand my knowledge whenever I can, so I am currently studying to be a Full Stack Web Developer.
 						</p> 
 
 					</div>
@@ -103,7 +122,7 @@
 			
 		</div>
 
-					<div id="skills" class="skillsSection section">
+		<div id="skills" class="skillsSection section">
 
 				<div class="container">
 
@@ -153,6 +172,7 @@
 					    <p>  </p>
 					    </div>
 
+
 						<div class="skill">
 					    	<span class="chart" data-percent="90"> 
 					    	<span class="percent"> 90 </span>
@@ -185,17 +205,17 @@
 					    	<span class="percent"> 90 </span>
 					    	<canvas height="152" width="152"> </canvas>
 					    </span>
-					    <h4> Figma </h4>
+					    <h4> Sass </h4>
 					    <p>  </p>
 					    </div>
 
 					    
 
-							</div>
+			</div>
 
-					</div>
+			</div>
 
-					</div>
+			</div>
 			
 
 		</div>
@@ -205,11 +225,11 @@
 		<div class="col-md-12 text-center">
 
 				<p class="subHeading"> Like what you see?</p> 
-				<h2> I'd love to hear from you! </h2>
+				<h2 class="love"> I'd love to hear from you! </h2>
 				<a href="mailTo:luzvergara_16@hotmail.com" class="contactButton"> CONTACT ME </a> 
 		</div>  
 
-		</div>
+	</div>
 
 
 		<div id="portfolio" class="section">
@@ -224,9 +244,9 @@
 				<div class="filter">
 					<ul id="filters">
 						<li> <a href="#" data-filter="*" class="current"> ALL </a></li>
-						<li> <a href="#" data-filter=".apps"> Designs </a></li>
-						<li> <a href="#" data-filter=".me"> Samples </a></li>
-						<li> <a href="#" data-filter=".websites"> Websites </a></li>
+						<li> <a href="#" data-filter=".apps"> Websites </a></li>
+						<li> <a href="#" data-filter=".me"> UX Design </a></li>
+						<li> <a href="#" data-filter=".websites"> Other </a></li>
 
 
 					</ul>
@@ -242,14 +262,14 @@
 
 					<div class="item">
 
-					<img src="img/Portfolio/Thumbnails/rosario.jpg"> 
+					<img src="img/Portfolio/Thumbnails/logo.jpg"> 
 
 					<div class="icons">
-						<a href="img/Portfolio/1.jpg" title="View image" class="openButton" data-fancybox data-caption="Logo"> 
+						<a href="img/Portfolio/1.png" title="View image" class="openButton" data-fancybox data-caption="Logo"> 
 							<i class="fa fa-search"> </i>
 						</a>
 
-						<a href="" target="_blank" class="projectLink"> 
+						<a href="https://merakihomefy.000webhostapp.com/" target="_blank" class="projectLink"> 
 							<i class="fa fa-link"> </i>
 						</a>
 					</div>
@@ -259,38 +279,18 @@
 					</li>
 
 
-				<li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+				<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
 
 					<div class="item">
 
-					<img src="img/Portfolio/Thumbnails/pauta.jpg"> 
+					<img src="img/Portfolio/Thumbnails/malverso.png"> 
 
 					<div class="icons">
-						<a href="img/Portfolio/2.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
+						<a href="img/Portfolio/2.png" title="View image" class="openButton" data-fancybox data-caption=""> 
 							<i class="fa fa-search"> </i>
 						</a>
 
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-					<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/studio.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/3.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
+						<a href="https://malverso.vercel.app/" target="_blank" class="projectLink"> 
 							<i class="fa fa-link"> </i>
 						</a>
 					</div>
@@ -303,14 +303,14 @@
 
 					<div class="item">
 
-					<img src="img/Portfolio/Thumbnails/book.jpg"> 
+					<img src="img/Portfolio/Thumbnails/podcast.png"> 
 
 					<div class="icons">
-						<a href="img/Portfolio/4.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
+						<a href="img/Portfolio/3.png" title="View image" class="openButton" data-fancybox data-caption=""> 
 							<i class="fa fa-search"> </i>
 						</a>
 
-						<a href="" target="_blank" class="projectLink"> 
+						<a href="https://proyecto-podcast-hpz0dspef-luzvergara93.vercel.app/" target="_blank" class="projectLink"> 
 							<i class="fa fa-link"> </i>
 						</a>
 					</div>
@@ -323,34 +323,14 @@
 
 					<div class="item">
 
-					<img src="img/Portfolio/Thumbnails/promo.jpeg"> 
+					<img src="img/Portfolio/Thumbnails/gifos.png"> 
 
 					<div class="icons">
-						<a href="img/Portfolio/5.jpeg" title="View image" class="openButton" data-fancybox data-caption=""> 
+						<a href="img/Portfolio/4.png" title="View image" class="openButton" data-fancybox data-caption=""> 
 							<i class="fa fa-search"> </i>
 						</a>
 
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-					<li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/prototype.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/6.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
+						<a href="https://proyecto-gif-os-alpha.vercel.app/" target="_blank" class="projectLink"> 
 							<i class="fa fa-link"> </i>
 						</a>
 					</div>
@@ -363,14 +343,14 @@
 
 					<div class="item">
 
-					<img src="img/Portfolio/Thumbnails/color.png"> 
+					<img src="img/Portfolio/Thumbnails/workhard.png"> 
 
 					<div class="icons">
-						<a href="img/Portfolio/7.png" title="View image" class="openButton" data-fancybox data-caption=""> 
+						<a href="img/Portfolio/5.png" title="View image" class="openButton" data-fancybox data-caption=""> 
 							<i class="fa fa-search"> </i>
 						</a>
 
-						<a href="" target="_blank" class="projectLink"> 
+						<a href="https://www.behance.net/gallery/115485719/Proyecto-Final-Coderhouse" target="_blank" class="projectLink"> 
 							<i class="fa fa-link"> </i>
 						</a>
 					</div>
@@ -379,107 +359,7 @@
 
 					</li>
 
-					<li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/esquema.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/8.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-					<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/foto.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/9.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-					<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/revista.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/10.jpg" title="View image" class="openButton" data-fancybox data-caption=""> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-					<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/tapa.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/11.jpg" title="View image" class="openButton" data-fancybox data-caption="Logo"> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-					<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-					<div class="item">
-
-					<img src="img/Portfolio/Thumbnails/papeles.jpg"> 
-
-					<div class="icons">
-						<a href="img/Portfolio/12.jpg" title="View image" class="openButton" data-fancybox data-caption="Logo"> 
-							<i class="fa fa-search"> </i>
-						</a>
-
-						<a href="" target="_blank" class="projectLink"> 
-							<i class="fa fa-link"> </i>
-						</a>
-					</div>
-					<div class="imageOverlay"> </div>
-				</div>
-
-					</li>
-
-
+					
 
 
 				</ul> 
@@ -502,7 +382,57 @@
 			</div>
 		</div>
 
+<!-- Section for other studies I have -->
 
+<div class="container study" id="education">
+
+	
+		<h2> EDUCATION</h2>
+
+	<div class="studies">
+
+		<div class="course">
+			<h3> Sworn Translation</h3>
+			<p> Universidad del Salvador - 2016</p>
+		</div>
+
+		<div class="course">
+			<h3> Post-graduate Teaching Program</h3>
+			<p> Universidad del Salvador - 2018</p>
+		</div>
+
+		<div class="course">
+			<h3> Graphic Design </h3>
+			<p> Loopian - 2019</p>
+		</div>
+
+		<div class="course">
+			<h3> Identity Design and Branding </h3>
+			<p> Loopian - 2019</p>
+		</div>
+
+		<div class="course">
+			<h3> UX Design  </h3>
+			<p> Coderhouse - 2021</p>
+		</div>
+
+		<div class="course">
+			<h3> Front End Web Development </h3>
+			<p> Coderhouse - 2021</p>
+		</div>
+
+		<div class="course">
+			<h3> Full Stack Web Development </h3>
+			<p> Acamica - in progress</p>
+		</div>
+
+		<div class="course">
+			<h3> Full Stack Web Development </h3>
+			<p> Argentina Programa - in progress</p>
+		</div>
+	</div>
+
+</div>
 
 
 
